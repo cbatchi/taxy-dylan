@@ -1,0 +1,23 @@
+*::selection {
+  background-color: $yellow;
+  color: $white;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: $black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover { text-decoration: none; }
+}
+
+section {
+  min-height: auto;
+  width: 100%;
+  display: block;
+}

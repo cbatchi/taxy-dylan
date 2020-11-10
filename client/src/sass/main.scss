@@ -1,0 +1,32 @@
+// Load vendor file
+@import
+  './vendors/bootstrap';
+
+
+// Load abstract file
+@import
+  './abstracts/variables',
+  './abstracts/mixins',
+  './abstracts/helpers',
+  './abstracts/functions';
+
+
+// Load base file
+@import
+  './base/reset',
+  './base/base',
+  './base/typography';
+
+
+// Load components files
+@import
+  './components/navbar';
+
+
+// Load layout files
+@import
+  './layout/header',
+  './layout/banner',
+  './layout/offers';
+
+

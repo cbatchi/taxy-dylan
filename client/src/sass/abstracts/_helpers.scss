@@ -1,0 +1,62 @@
+.fw-regular {
+  font-weight: 400;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.text-primary {
+  color: $yellow !important;
+}
+
+.nownarow {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.row-30 {
+  margin-bottom: -30px;
+}
+
+.button {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding: 17px 35px;
+  font-size: 18px;
+  line-height: 1.25;
+  border: 2px solid;
+  font-weight: 500;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  user-select: none;
+  transition: all 0.15s ease-in-out;
+  box-shadow: 0px 8px 20px rgba(27, 27, 27, 0.08);
+  border-radius: 5px;
+  width: 256px;
+
+  &:hover {
+    background-color: $black;
+    border: 2px solid;
+  }
+
+}
+
+.button-primary {
+  color: #ffffff;
+  background-color: #FDC501;
+  border-color: #FDC501;
+}
+
+.fa {
+  color: $yellow;
+  font-size: 1.2rem;
+}
+
+.bg-default {
+  background-color: #F8F9F9;
+}
